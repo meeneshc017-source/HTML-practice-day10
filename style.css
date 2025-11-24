@@ -6,7 +6,8 @@
 }
 
 body{
-     background: linear-gradient(90deg, #00ff88 0%, #3898e1 100%);
+    background: linear-gradient(90deg, #b6b4ad 0%, #b799da 100%);
+
 }
 .container{
     margin: 0 auto;
@@ -80,6 +81,7 @@ body{
     box-shadow: inset 2px 1px 6px rgb(12, 142, 242), 4px 4px 5px rgb(99, 0, 99);
     transition: all 0.1s;
      font-size: 1.1rem;
+     border: 1px solid rgb(204, 187, 156);
 }
 
 @media  screen and (min-width:868px) {
@@ -106,6 +108,14 @@ body{
    padding: 0.6rem 1rem;
    font-weight: 600;
    box-shadow: inset 2px 1px 6px rgb(250, 250, 250), 4px 4px 5px rgb(99, 0, 99);
+}
+
+.menu-btn:active{
+   transform: scale(0.9);
+}
+
+.menu-btn:hover{
+    background:linear-gradient(60deg, #e0e0cbac 10%, #fff5f5ba 90%); 
 }
 
 @media  screen and (max-width:868px) {
@@ -156,6 +166,9 @@ body{
     font-size: 2rem;
     font-weight: 900;
     padding: 1.1rem;
+    color: rgb(39, 42, 48);
+    text-shadow: 2px 3px 5px  rgb(61, 47, 47);
+
 }
 
 #leftpara2{
@@ -176,17 +189,19 @@ body{
     color: #f9f7f7;
      text-shadow: 5px 4px 3px rgb(31, 3, 40) ;
     padding: 0.6rem 1rem;
+    border: 1px solid rgb(204, 187, 156);
     border-radius: 5px;
      box-shadow: inset 2px 1px 6px rgb(12, 142, 242), 4px 4px 5px rgb(99, 0, 99);
 }
 
 #tourbtn{
-   border: 1px solid rgb(16, 45, 149);
+   border: 1px solid wheat;
     box-shadow: inset 2px 1px 6px rgb(194, 225, 248), 4px 4px 5px rgb(99, 0, 99);
     color: #19570e;
     padding: 0.6rem 1rem;
+    text-shadow: 1px 1px 2px rgb(58, 10, 74) ;
     border-radius: 5px;
-    background: linear-gradient(80deg, #fff306ec 10%, #42ff4fba 90%);
+    /* background: linear-gradient(80deg, #fff306ec 10%, #42ff4fba 90%); */
 }
 
 #startbtn:hover,
@@ -227,8 +242,9 @@ body{
 
 
 .right-img{
-   height: 100%;
-   width: 100%;  
+     border-radius: 50%;
+   height: 50vh;
+   width: 50vh;  
 }
 
 @media  screen and (min-width:868px) {
@@ -256,6 +272,12 @@ body{
     #leftpara2{
         width: 80%;
     }
+    
+   .right-img{
+       height: 100%;
+       width: 100%;  
+    }
+
 }
 
 
@@ -264,8 +286,8 @@ body{
     max-width: 1280px;
     display: flex;
     flex-direction: column;
-     justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     animation: slideFromLeft 1s ease forwards;
 }
@@ -285,7 +307,7 @@ body{
     justify-content: space-around;
     border: 2px solid rgb(200, 200, 200);
     padding: 2rem 2rem;
-   background:#B0C4DE;
+    background:#B0C4DE;
     box-shadow: inset 1px 2px 5px rgb(255, 255, 255), 4px 4px 5px rgb(99, 0, 99);
     border-radius: 20px;
     
@@ -320,17 +342,17 @@ body{
 .content3{
     margin: 4rem auto;
     max-width: 1000px;
-    height: 108\00px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    background: linear-gradient(90deg, #4390e3 0%, #00ff88 100%);
+    background: linear-gradient(90deg, #b7b4a8 0%, #bca3da 100%);
     padding: 3rem;
     border-radius: 15px;
     transition: all 0.5s ease-in-out;
     box-shadow: inset 1px 2px 5px rgb(255, 255, 255);
+    border: 1px solid wheat;
 }
 
 
@@ -394,6 +416,15 @@ body{
     gap: 1rem;
     align-items: center;
     justify-content: center;
+      transition: all 0.5s ease-in-out;
+    box-shadow: inset 1px 2px 5px rgb(255, 255, 255);
+    border: 1px solid wheat; 
+}
+
+.feature-card:hover{
+    box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(3px) translateY(-3px);
 }
 
 #card1{
@@ -430,7 +461,7 @@ body{
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgb(41, 9, 9);
     transition: all 0.4s ease-in-out;
-   
+   border: 1px solid rgb(156, 140, 110);
 }
 
 .feature-icon:hover{
@@ -453,4 +484,108 @@ body{
     max-width: 95%;
   padding-top: 8px;
  
+}
+
+.content4{
+   margin: 4rem auto;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    background: linear-gradient(90deg, #b7b4a8 0%, #bca3da 100%);
+    padding: 3rem;
+    border: 1px solid wheat;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 1px 2px 5px rgb(255, 255, 255);
+}
+
+
+.content4:hover{
+    box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(3px) translateY(-3px);
+}
+
+
+#content4-heading{
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgb(39, 42, 48);
+    text-shadow: 1px 1px 3px  rgb(61, 47, 47);
+}
+
+
+.testimonial-section{
+    display: flex;
+     flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+@media  screen and (min-width:868px) {
+    #content4-heading {
+        font-size: 2.1rem;
+    }
+     .testimonial-section{
+      flex-direction: row; 
+   }
+}
+
+#testimonial-cards{
+   background: linear-gradient(90deg, #b6b4ad 0%, #b799da 100%);
+   padding: 1rem;
+   border: 1px solid wheat;
+   border-radius: 9px;
+   transition: all 0.5s ease-in-out;
+   box-shadow: inset 1px 2px 5px rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.4rem;
+}
+
+
+#testimonial-cards:hover{
+    box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(3px) translateY(-3px);
+}
+
+#testimonial-cards p{
+    max-width: 95%;
+    text-align: center;
+}
+
+#image4{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px 5px rgb(41, 9, 9, 0.4);
+}
+
+#image4:hover{
+     box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
+    transition: all 0.4s ease-in-out;
+    transform: translateX(3px) translateY(-3px) scale(1.5,1.5);
+}
+
+
+#name4{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    max-width: 50%;
+    color: #862b31;
+    text-shadow: 2px 2px 3px rgb(244, 236, 236);
+}
+
+
+.teacher-name span{
+  font-size: 1.1rem;
 }
