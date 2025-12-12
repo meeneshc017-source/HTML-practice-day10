@@ -555,6 +555,7 @@ body{
     box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
     transition: all 0.4s ease-in-out;
     transform: translateX(3px) translateY(-3px);
+    cursor: pointer;
 }
 
 #testimonial-cards p{
@@ -575,6 +576,8 @@ body{
      box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
     transition: all 0.4s ease-in-out;
     transform: translateX(2.5px) translateY(-2.5px) scale(1.5);
+    cursor: pointer;
+
 }
 
 
