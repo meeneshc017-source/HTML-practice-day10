@@ -426,6 +426,8 @@ body{
     box-shadow:  inset 1px 2px 5px rgb(255, 255, 255),4px 4px 6px rgba(99, 0, 99, 0.3) ;
     transition: all 0.4s ease-in-out;
     transform: translateX(3px) translateY(-3px);
+        cursor: pointer;
+
 }
 
 #card1{
@@ -469,6 +471,7 @@ body{
     box-shadow: 4px 6px 5px rgb(41, 9, 9);
     transition: all 0.3s ease-in-out;
     transform: translate(2px,-2px) scale(1.2);
+    cursor: pointer;
 }
 
 
