@@ -595,3 +595,11 @@ body{
 .teacher-name span{
   font-size: 1.1rem;
 }
+
+.footer-section{
+    background-color: #fff;
+    height: 40rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+
+}
