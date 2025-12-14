@@ -616,8 +616,25 @@ body{
 }
 
 #news1{
-
+    font-size: 2.5rem;
+    color: rgb(39, 42, 48);
+    text-shadow: 1px 1px 3px rgb(61, 47, 47);
 }
+
+.news p{
+    font-size: 1.2rem;
+    color: rgb(18, 16, 16);
+}
+
+#email{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 3px;
+    background: #eadede;
+    color:  rgb(39, 42, 48);
+}
+
 
 .footer-section{
    height: 40rem;
