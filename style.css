@@ -629,15 +629,35 @@ body{
 #email{
     border: none;
     font-size: 1.2rem;
-    padding: 0.8rem;
+    padding: 0.6rem;
     border-radius: 3px;
     background: #eadede;
     color:  rgb(39, 42, 48);
 }
 
+.news button{
+   background: linear-gradient(60deg, #1912de 0%, #10f48a 100%);
+    color: #f9f7f7;
+     text-shadow: 5px 4px 3px rgb(31, 3, 40) ;
+    padding: 0.6rem 1rem;
+    border: 1px solid rgb(204, 187, 156);
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.6rem;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+     box-shadow: inset 2px 1px 6px rgb(12, 142, 242), 4px 4px 5px rgb(99, 0, 99);
+} 
 
+.news button:hover{
+    opacity: 0.9;
+}
+
+.news button:active{
+    scale: 0.9;
+}
 .footer-section{
-   height: 40rem;
+   height: 60rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
    transition: all 0.4s ease-in-out;
