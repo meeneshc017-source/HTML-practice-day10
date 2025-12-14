@@ -596,14 +596,31 @@ body{
   font-size: 1.1rem;
 }
 
+.newsletter{
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+     background: linear-gradient(90deg, #b7b4a8 0%, #bca3da 100%);
+}
+
 .newsletterimg img{
  height: 25rem;
  width: 25rem;
 }
+.news{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#news1{
+
+}
 
 .footer-section{
-     background: linear-gradient(90deg, #b7b4a8 0%, #bca3da 100%);
-    height: 40rem;
+   height: 40rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
    transition: all 0.4s ease-in-out;
