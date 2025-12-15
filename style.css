@@ -635,11 +635,14 @@ body{
     text-shadow: 1px 1px 3px rgb(61, 47, 47);
 }
 
-.news p{
+.newsright p{
     font-size: 1.2rem;
     color: rgb(18, 16, 16);
 }
 
+.newsright a{
+    text-decoration: underline;
+}
 #email{
     border: none;
     font-size: 1.2rem;
@@ -649,7 +652,7 @@ body{
     color:  rgb(39, 42, 48);
 }
 
-.news button{
+.newsright button{
    background: linear-gradient(60deg, #1912de 0%, #10f48a 100%);
     color: #f9f7f7;
      text-shadow: 5px 4px 3px rgb(31, 3, 40) ;
@@ -663,12 +666,12 @@ body{
      box-shadow: inset 2px 1px 6px rgb(12, 142, 242), 4px 4px 5px rgb(99, 0, 99);
 } 
 
-.news button:hover{
+.newsright button:hover{
     opacity: 0.9;
     cursor: pointer;  
 }
 
-.news button:active{
+.newsright button:active{
     scale: 0.9;
 }
 
