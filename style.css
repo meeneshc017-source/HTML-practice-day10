@@ -610,15 +610,19 @@ body{
      background: linear-gradient(90deg, #b7b4a8 0%, #bca3da 100%);
 }
 
-.newsletterimg img{
- /* height: 100vh;    */
- width: 25rem;
+.newsleft{
+    height: 25rem;
+    
+}
+.newsleft img{
+ height: 48.3vh;   
+ width:100%;
  object-fit: contain;
  border-bottom-left-radius: 1rem;
  border-top-left-radius: 1rem;
- height: 100%;
+ /* height: 100%; */
 }
-.news{
+.newsright{
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
