@@ -697,3 +697,14 @@ body{
     cursor: pointer;
 
 }
+
+
+#footercopyright{
+    height: 2rem;
+    width: 100%;
+    background: #ddd0d0;
+    padding: 1rem;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
