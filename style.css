@@ -750,6 +750,13 @@ body{
     cursor: pointer;
 }
 
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
 #footercopyright{
     height: 2rem;
     width: 100%;
