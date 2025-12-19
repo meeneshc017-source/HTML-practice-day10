@@ -680,6 +680,22 @@ body{
     transition: all 0.4s ease-in-out;
     transform: translateX(3px) translateY(-3px);
 }
+
+@media  screen and (max-width:868px) {
+    .newsletter {
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+
+    .newsleft img{
+        height: auto;   
+        width: 50%;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1rem;
+    }
+    
+}
 .footer-section{
    height: 60rem;
     margin-bottom: 1rem;
