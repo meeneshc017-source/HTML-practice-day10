@@ -611,11 +611,11 @@ body{
 }
 
 .newsleft{
-    height: 25rem;
+    height: 20rem;
     
 }
 .newsleft img{
- height: 48.3vh;   
+ height: 100%;   
  width:100%;
  object-fit: contain;
  border-bottom-left-radius: 1rem;
@@ -685,22 +685,35 @@ body{
     .newsletter {
         flex-direction: column;
         align-items: center;
-        height: auto;
     }
     .newsleft{
-        width: 100%;
-        height: auto;
+        height:0;
     }
 
     .newsleft img{
-        height: auto;   
-        width: 70%;
-        border-bottom-left-radius: 0;
-        border-top-right-radius: 1rem;
+        visibility: hidden;
     }
     .newsright{
-        margin: 2rem 1rem;
+        margin: 0 2rem 2rem 2rem;
+        line-height: 2rem;
     }
+    #news1{
+        font-size: 2rem;
+    }
+    .newsright p{
+    font-size: 1.1rem;
+    }
+    #email{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    .newsright button{
+        margin-left: 0;
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+       
+
 }
 .footer-section{
    height: 60rem;
